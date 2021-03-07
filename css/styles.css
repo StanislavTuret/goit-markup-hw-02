@@ -1,3 +1,16 @@
+:root {
+  /* ОСНОВНЫЕ КОРЕШКИ */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --background-color: #fff;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+}
+
 .link {
   text-decoration: none;
 }
@@ -7,8 +20,29 @@
 .address {
   font-style: normal;
 }
+
+body {
+  font-family: var(--main-font);
+}
+
+.logo-img {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.logo-black {
+  color: #000000;
+}
+
 .navigation-link {
-  font-family: "Roboto", sans-serif;
+  /* font-family: var(--main-font); */
   /* font-style: normal; */
   font-weight: 500;
   font-size: 14px;
@@ -18,15 +52,125 @@
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .mail-link,
 .tel-link {
-  font-family: "Roboto", sans-serif;
+  /* font-family: var(--main-font); */
   /* font-style: normal; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: #757575;
+}
+/* -------------------------------------------FIX */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+.small-titles {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.small-description {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.about-us {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.list {
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+
+.our-team {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-member {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-position {
+  /* font-family: var(--main-font); */
+  /* font-style: normal; */
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 18;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
   color: #757575;
 }
