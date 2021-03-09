@@ -8,7 +8,6 @@
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --background-color: #fff;
   --secondary-background-color: #f5f4fa;
-  --footer-background-color: #2f303a;
 }
 
 .link {
@@ -24,6 +23,8 @@
 body {
   font-family: var(--main-font);
 }
+
+/* HEADER PART */
 
 .logo-img {
   font-family: var(--secondary-font);
@@ -48,7 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -62,11 +63,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
-/* -------------------------------------------FIX */
+/* HEADER PART AND*/
+
+/*  HERO*/
+
 .hero {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -95,6 +99,11 @@ body {
   background-color: #188ce8;
   color: #ffffff;
 }
+
+/*  HERO END*/
+
+/* MAIN PART */
+
 .small-titles {
   /* font-family: var(--main-font); */
   /* font-style: normal; */
@@ -104,7 +113,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .small-description {
@@ -117,7 +126,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 .about-us {
   /* font-family: var(--main-font); */
@@ -128,7 +137,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 .list {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
@@ -144,7 +153,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .team-member {
@@ -158,7 +167,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .team-position {
@@ -172,5 +181,93 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--text-color);
+}
+
+/* MAIN PART END*/
+
+/* FOOTER */
+
+footer {
+  background-color: #2f303a;
+}
+
+.our-address {
+  color: #2f303a;
+}
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ======================== PORTFOLIO ======================== */
+
+.radio-button:hover,
+.radio-button:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+  color: #ffffff;
+}
+.radio-button {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.projects-name {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.projects-name-category {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1, 87;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
 }

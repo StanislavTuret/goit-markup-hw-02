@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Главная</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -19,20 +19,21 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Шапка -->
+    <!-- =========================== HEADER =========================== -->
     <header class="header">
       <nav class="navigation">
         <a class="link logo-img" lang="en" href="./index.html"
           >Web<span class="logo-black">Studio</span></a
         >
-        <!-- доделать webstudio -->
 
         <ul class="list">
           <li class="navigation-item">
-            <a class="navigation-link link" href="">Студия</a>
+            <a class="navigation-link link" href="./index.html">Студия</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link link" href="">Портфолио</a>
+            <a class="navigation-link link" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li class="navigation-item">
             <a class="navigation-link link" href="">Контакты</a>
@@ -56,6 +57,7 @@
         </ul>
       </nav>
     </header>
+    <!-- =========================== HEADER =========================== -->
 
     <!-- Уникальный контент страницы -->
     <main>
@@ -187,24 +189,31 @@
         </ul>
       </section>
     </main>
-    <!-- Подвал -->
+    <!-- FOOTER -->
 
     <footer>
       <section>
         <!-- скрыть заголовок в css-->
-        <h5>Наш адресс</h5>
+        <h5 class="our-address">Наш адресс</h5>
 
         <a class="link logo-img" lang="en" href="./index.html"
           >Web<span class="logo-black">Studio</span></a
         >
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <address class="footer-address">
+          г. Киев, пр-т Леси Украинки, 26
+        </address>
 
-        <address class="address">
-          <a class="link" lang="en" href="mailto:info@devstudio.com"
+        <address class="footer-mail">
+          <a
+            class="navigation-link link mail-link"
+            lang="en"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
           <br />
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="navigation-link footer-tel link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </address>
       </section>
     </footer>
